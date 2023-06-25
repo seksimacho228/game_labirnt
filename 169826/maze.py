@@ -82,7 +82,7 @@ w4 = Wall(100,200,100, 100,10,200,30)
 font.init()
 font = font.Font(None, 70)
 win = font.render('YOU WIN!', True, (255, 215, 0))
-lose = font.render('ТЫ ЛОХ ЕБАНЫЙ ', True, (180, 0, 0))
+lose = font.render('ТЫ ЛОХ  ', True, (180, 0, 0))
 
 while run:
     for i in event.get():
